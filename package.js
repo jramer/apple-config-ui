@@ -6,6 +6,7 @@ Package.describe({
 });
 
 Package.onUse(api => {
+  api.versionsFrom('1.8.1');
   api.use('ecmascript', 'client');
   api.use('templating@1.2.13', 'client');
 
